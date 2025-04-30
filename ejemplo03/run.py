@@ -12,7 +12,7 @@ for d in data['docs']:
     if d['nombre'][0] in ["A", "B", "L"]:
         lista_datos.append(d)
 
-base_datos = "personas003"
+base_datos = "persona003"
 # Configurar el acceso a la base de datos
 url = f"http://127.0.0.1:5984/{base_datos}/_bulk_docs"
 headers = {'Content-Type': 'application/json'}
